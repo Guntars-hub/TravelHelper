@@ -7,19 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D084CA6B25E42B160000D4F2 /* Locations.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084CA6A25E42B150000D4F2 /* Locations.swift */; };
+		D084CA6E25E431D20000D4F2 /* WorldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084CA6D25E431D20000D4F2 /* WorldView.swift */; };
+		D084CA7125E43C930000D4F2 /* Tip.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084CA7025E43C930000D4F2 /* Tip.swift */; };
+		D084CA7425E43D5B0000D4F2 /* TipsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D084CA7325E43D5B0000D4F2 /* TipsView.swift */; };
 		D0FD7F9E25E41AAB00EA4002 /* TravelHelperApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD7F9D25E41AAB00EA4002 /* TravelHelperApp.swift */; };
 		D0FD7FA025E41AAB00EA4002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD7F9F25E41AAB00EA4002 /* ContentView.swift */; };
 		D0FD7FA225E41AAE00EA4002 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FD7FA125E41AAE00EA4002 /* Assets.xcassets */; };
 		D0FD7FA525E41AAE00EA4002 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0FD7FA425E41AAE00EA4002 /* Preview Assets.xcassets */; };
+		D0FD7FAF25E41CF600EA4002 /* tips.json in Resources */ = {isa = PBXBuildFile; fileRef = D0FD7FAD25E41CF500EA4002 /* tips.json */; };
+		D0FD7FB025E41CF600EA4002 /* locations.json in Resources */ = {isa = PBXBuildFile; fileRef = D0FD7FAE25E41CF600EA4002 /* locations.json */; };
+		D0FD7FB325E426D900EA4002 /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0FD7FB225E426D900EA4002 /* Location.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D084CA6A25E42B150000D4F2 /* Locations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Locations.swift; sourceTree = "<group>"; };
+		D084CA6D25E431D20000D4F2 /* WorldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldView.swift; sourceTree = "<group>"; };
+		D084CA7025E43C930000D4F2 /* Tip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tip.swift; sourceTree = "<group>"; };
+		D084CA7325E43D5B0000D4F2 /* TipsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TipsView.swift; sourceTree = "<group>"; };
 		D0FD7F9A25E41AAB00EA4002 /* TravelHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TravelHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D0FD7F9D25E41AAB00EA4002 /* TravelHelperApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TravelHelperApp.swift; sourceTree = "<group>"; };
 		D0FD7F9F25E41AAB00EA4002 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		D0FD7FA125E41AAE00EA4002 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D0FD7FA425E41AAE00EA4002 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D0FD7FA625E41AAE00EA4002 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0FD7FAD25E41CF500EA4002 /* tips.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = tips.json; sourceTree = "<group>"; };
+		D0FD7FAE25E41CF600EA4002 /* locations.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = locations.json; sourceTree = "<group>"; };
+		D0FD7FB225E426D900EA4002 /* Location.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +47,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D084CA7625E43FD60000D4F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D0FD7F9D25E41AAB00EA4002 /* TravelHelperApp.swift */,
+				D084CA6D25E431D20000D4F2 /* WorldView.swift */,
+				D084CA7325E43D5B0000D4F2 /* TipsView.swift */,
+				D0FD7F9F25E41AAB00EA4002 /* ContentView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D084CA7725E440110000D4F2 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				D084CA7025E43C930000D4F2 /* Tip.swift */,
+				D084CA6A25E42B150000D4F2 /* Locations.swift */,
+				D0FD7FB225E426D900EA4002 /* Location.swift */,
+				D0FD7FAE25E41CF600EA4002 /* locations.json */,
+				D0FD7FAD25E41CF500EA4002 /* tips.json */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		D0FD7F9125E41AAB00EA4002 = {
 			isa = PBXGroup;
 			children = (
@@ -52,8 +89,8 @@
 		D0FD7F9C25E41AAB00EA4002 /* TravelHelper */ = {
 			isa = PBXGroup;
 			children = (
-				D0FD7F9D25E41AAB00EA4002 /* TravelHelperApp.swift */,
-				D0FD7F9F25E41AAB00EA4002 /* ContentView.swift */,
+				D084CA7625E43FD60000D4F2 /* Views */,
+				D084CA7725E440110000D4F2 /* Helpers */,
 				D0FD7FA125E41AAE00EA4002 /* Assets.xcassets */,
 				D0FD7FA625E41AAE00EA4002 /* Info.plist */,
 				D0FD7FA325E41AAE00EA4002 /* Preview Content */,
@@ -128,6 +165,8 @@
 			files = (
 				D0FD7FA525E41AAE00EA4002 /* Preview Assets.xcassets in Resources */,
 				D0FD7FA225E41AAE00EA4002 /* Assets.xcassets in Resources */,
+				D0FD7FB025E41CF600EA4002 /* locations.json in Resources */,
+				D0FD7FAF25E41CF600EA4002 /* tips.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +178,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				D0FD7FA025E41AAB00EA4002 /* ContentView.swift in Sources */,
+				D0FD7FB325E426D900EA4002 /* Location.swift in Sources */,
+				D084CA6E25E431D20000D4F2 /* WorldView.swift in Sources */,
+				D084CA7125E43C930000D4F2 /* Tip.swift in Sources */,
+				D084CA7425E43D5B0000D4F2 /* TipsView.swift in Sources */,
+				D084CA6B25E42B160000D4F2 /* Locations.swift in Sources */,
 				D0FD7F9E25E41AAB00EA4002 /* TravelHelperApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,11 +315,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TravelHelper/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TravelHelper/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lv.accenture.bootcamp.TravelHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -292,11 +337,12 @@
 				DEVELOPMENT_ASSET_PATHS = "\"TravelHelper/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				INFOPLIST_FILE = TravelHelper/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = lv.accenture.bootcamp.TravelHelper;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
