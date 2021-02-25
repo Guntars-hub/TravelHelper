@@ -21,6 +21,7 @@ struct TipsView: View {
             if tip.children != nil{
                 Label(tip.text, systemImage: "quote.bubble")
                       .font(.headline)
+                      .padding()
             } else {
                 Text(tip.text)
             }

@@ -36,6 +36,15 @@ struct ContentView: View {
             
             Text(location.more)
                 .padding(.horizontal)
+            
+            Text("Advisory")
+                .font(.title3)
+                .bold()
+                .padding(.top)
+            
+            Text(location.advisory)
+                .padding(.horizontal)
+            
         }
         .navigationTitle("Discover")
     }

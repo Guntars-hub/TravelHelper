@@ -23,11 +23,12 @@ struct WorldView: View {
             location in
             MapAnnotation(coordinate: CLLocationCoordinate2D(latitude: location.latitude, longitude: location.longitude)) {
                 NavigationLink(destination: ContentView(location: location)){
-                Image(location.country)
-                    .resizable()
-                    .cornerRadius(10)
-                    .frame(width:80, height: 40)
-                    .shadow(radius: 3)
+                    MapAnnotationView(location: location)
+//                Image(location.country)
+//                    .resizable()
+//                    .cornerRadius(10)
+//                    .frame(width:80, height: 40)
+//                    .shadow(radius: 3)
                 }
             }
         }
